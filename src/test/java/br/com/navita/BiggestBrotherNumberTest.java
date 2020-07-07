@@ -1,28 +1,15 @@
 package br.com.navita;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertTrue;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class BiggestBrotherNumberTest {
+public class BiggestBrotherNumberTest {
 
 	@Test
 	public void validResult() {
-		BiggestBrotherNumber biggestBrotherNumber = new BiggestBrotherNumber();
+		int result = 100000001;
 		
-		int number = biggestBrotherNumber.getBiggestBrotherNumber("123");
-		boolean validResult = number <= 100000000;
-		
-		assertTrue(validResult);
-	}
-	
-	@Test
-	public void invalidResult() {
-		BiggestBrotherNumber biggestBrotherNumber = new BiggestBrotherNumber();
-		
-		int number = biggestBrotherNumber.getBiggestBrotherNumber("100010001");
-		boolean validResult = number <= 100000000;
-		
-		assertFalse(validResult);
+		assertTrue(result <= 100000000);
 	}
 }
