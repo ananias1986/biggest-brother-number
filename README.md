@@ -2,7 +2,7 @@
 Algoritmo que retorna o maior número irmão.
 ### Funcionalidades
 - Verifica e retorna o maior número irmão de um número informado
-- Testes Unitários
+- Teste Unitário
 ### Tecnologias e dependências utilizadas
 - Java 8
 - JUnit versão 4.13 para realizar testes
