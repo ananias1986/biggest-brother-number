@@ -5,5 +5,6 @@ Algoritmo que retorna o maior número irmão.
 - Teste Unitário
 ### Tecnologias e dependências utilizadas
 - Java 8
-- JUnit versão 4.13 para realizar testes
+- JUnit, versão 4.13, para realizar testes
 - IDE de desenvolvimento Eclipse, versão 2020-03
+- Apache Maven, versão 3.6.3
